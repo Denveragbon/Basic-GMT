@@ -124,9 +124,10 @@ img {
 }
 /* HEADER */
 .header {
-  background: var(--dark);
+  background:transparent;
+  padding:2rem;
   position:relative;
-  position:fix;
+  position:fixed;
   width:100%;
 }
 .header_nav ul.nav {
@@ -236,6 +237,15 @@ img {
     display:block;
   }
 }
+/* BANNER */
+.banner{
+  background-image:url("img-20240312T235127Z-001 (2)/img/banner_home_v1.jpg");
+  background-size:cover;
+  height:100vh;
+  background-position:center center;
+}
+
+/* REPEATABLE */
 :root {
   --light: #ffffff;
   --dark: #2b2b2b;
