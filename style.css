@@ -303,6 +303,29 @@ img {
   display:flex;
   gap:3rem;
 }
+.offer{
+  max-width:500rem;;
+  margin: 0 auto;
+  padding: 1.5rem;
+  height:100vh
+}
+.offer__text h2{
+  font-size: 5rem;
+  font-weight:600;
+}
+.offer_text h2{
+  color: #134A8C;
+  font-size: 5rem;
+  font-weight:600;
+  margin:3rem;
+
+}
+.offer_text p{
+  color:var(--dark)
+  font-size:1.5rem;
+  text-align:center;
+  margin: 0auto;
+}
 @media screen and (max-width:500px){
   .banner_text h1{
     font-size:4rem;
