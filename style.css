@@ -121,6 +121,7 @@ img {
   max-width: 150rem;
   margin: 0 auto;
   padding: 1.5rem;
+  width:100%;
 }
 /* HEADER */
 .header {
@@ -355,6 +356,52 @@ img {
     justify-content:center;
   }
 }
+/* HOW */
+.how{
+  background:var(--primary);
+
+}
+.how_wrapper{
+  display:grid;
+  grid-template-columns:2fr 2fr;
+  min-height:500px;
+}
+.how_ate{
+  background-image:url("img-20240312T235127Z-001 (2)/img/different_img.jpg");
+  background-size:cover;
+  background-position:center center;
+  height:100%;
+}
+  .how_text{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:2rem;
+    max-width;
+    margin:0 auto;
+  }
+  .how_text h2{
+    color:var(--light);
+    font-size:4rem;
+    font-weight:600;
+  }
+  .how_text p{
+    color:var(--light);
+  }
+  @media screen and (max-width: 500px){
+  .how_wrapper{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    max-width:100;
+    margin:12rem;
+    gap:1.5rem;
+    background color:blue;
+  }
+  }
+  
 /* REPEATABLE */
 :root {
   --light: #ffffff;
