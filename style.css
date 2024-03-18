@@ -304,29 +304,48 @@ img {
   display:flex;
   gap:3rem;
 }
+/* OFFER */
 .offer{
-  max-width:500rem;;
-  margin: 0 auto;
-  padding: 1.5rem;
-  height:100vh
+  padding: 5rem 0;
+}
+.offer__wrapper{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10rem;
 }
 .offer__text h2{
-  font-size: 5rem;
-  font-weight:600;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 3rem;
 }
-.offer_text h2{
-  color: #134A8C;
-  font-size: 5rem;
-  font-weight:600;
-  margin:3rem;
+.offer__text p{
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-align: justify;
+  max-width: 60rem;
+}
+.offer__price {
+  margin-top: 10rem;
+}
+.offer__price h2{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.offer__price__bot{
+  display: flex;
+  color: var(--primary);
+  font-weight: 700;
+}
+.offer__price__bot h4{
+  font-size: 3rem;
+}
+.offer__price__bot h3{
+  font-size: 18rem;
+  margin-top: -6rem;
+}
 
-}
-.offer_text p{
-  color:var(--dark)
-  font-size:1.5rem;
-  text-align:center;
-  margin: 0auto;
-}
 @media screen and (max-width:500px){
   .banner_text h1{
     font-size:4rem;
@@ -401,7 +420,56 @@ img {
     background color:blue;
   }
   }
+    /* RECOMMENDED */
+  .recommend{
+    padding: 5rem 0;
+  }
+  .recommend .recommend__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .recommend .recommend__wrapper h2{
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 3rem;
+  line-height: 1;
+  }
+  .recommend .recommend__wrapper p{
+    margin-bottom: 3rem;
+  }
+  .recommend .recommend__wrapper ul{
+    display: flex;
+    gap: 2rem;
+  }
+  /* footer */
+  .footer{
   
+  background:var(--primary);
+  }
+  .footer_wrapper{
+    display:flex;
+    align-items:center;
+    height:30rem;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .footer_wrapper ul{
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  }
+  .footer_wrapper ul li{
+  margin-right:2rem;
+  margin-bottom:4rem;
+  }
+  .footer_wrapper ul li a{
+    color:var(--light);
+
+  }
 /* REPEATABLE */
 :root {
   --light: #ffffff;
